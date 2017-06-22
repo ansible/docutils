@@ -39,6 +39,7 @@ import sys, codecs
 
 # Guess the locale's encoding.
 # If no valid guess can be made, locale_encoding is set to `None`:
+locale_encoding = None
 try:
     import locale # module missing in Jython
 except ImportError:
